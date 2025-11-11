@@ -4,6 +4,10 @@
 
 Questo script python, da eseguire perpetuamente, ricerca ogni X secondi le keyword su subito.it per nuovi annunci, per poi mandare all'utente un messaggio attraverso un bot che sfrutta le API di Telegram. Un file JSON tiene traccia degli annunci già trovati.
 
+## Requisiti
+
+requests beautifulsoup4
+
 ## Setup
 
 Su Telegram, contattare [BotFather](https://t.me/BotFather), inviare un messaggio "/newbot" e seguire i passaggi. Al termine, verrà fornito un token.  
